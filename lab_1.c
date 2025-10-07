@@ -104,6 +104,8 @@ int main(){
     // task 4
     int src[] = {1, 2, 3, 4};
     int target[] = {0, 0, 0, 0};
+    int *srcPtr = &src;
+    int *targetPtr = &target;
     int size2 = 4;
 
     printf("\n------------------------\n[TASK] 4\n\n");
